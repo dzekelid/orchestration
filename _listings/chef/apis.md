@@ -1,0 +1,33 @@
+---
+name: Chef
+description: Use Chef server as your foundation to create and manage flexible, dynamic
+  infrastructure whether you manage 50 or 500,000 nodes, across multiple datacenters,
+  public and private clouds, and in heterogeneous environments.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/pic-chef-logo.png
+x-kinRank: "8"
+x-alexaRank: ""
+tags:
+- Stack Network
+- Orchestration
+created: "2018-02-25"
+modified: "2018-02-25"
+url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/chef/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-blog-rss
+  url: https://www.chef.io/blog/feed/
+- type: x-github
+  url: https://github.com/chef
+- type: x-twitter
+  url: https://twitter.com/chef
+- type: x-blog
+  url: https://www.chef.io/blog/
+- type: x-website
+  url: https://www.chef.io/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
+---
