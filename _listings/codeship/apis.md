@@ -1,0 +1,38 @@
+---
+name: Codeship
+description: Codeship is a hosted Continuous Delivery platform. It helps to release
+  software quickly, automatically and multiple times a day. It shortens the development
+  cycles thus reducing the risk of bugs and increasing innovation. It helps software
+  companies developing a better product faster by taking care of the testing and release
+  process. Managing your own continuous deployment system takes time, specialized
+  knowledge, custom solutions and dedicated, on-premise infrastructure. Codeship automates
+  software deployment and all the necessary tasks involved with it.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/codeship-logo.png
+x-kinRank: "8"
+x-alexaRank: ""
+tags:
+- Stack Network
+- Orchestration
+- Containers
+created: "2018-02-25"
+modified: "2018-02-25"
+url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/codeship/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-blog
+  url: https://blog.codeship.com/
+- type: x-blog-rss
+  url: http://blog.codeship.com/feed/
+- type: x-github
+  url: https://github.com/codeship
+- type: x-twitter
+  url: https://twitter.com/codeship
+- type: x-website
+  url: https://codeship.com/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
+---
