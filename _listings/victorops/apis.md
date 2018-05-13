@@ -29,6 +29,18 @@ x-common:
   url: https://twitter.com/VictorOps
 - type: x-website
   url: https://victorops.com
+- type: x-blog
+  url: https://victorops.com/blog/
+- type: x-blog-rss
+  url: https://victorops.com/feed/
+- type: x-github
+  url: https://github.com/victorops
+- type: x-pricing
+  url: https://victorops.com/pricing/
+- type: x-twitter
+  url: https://twitter.com/VictorOps
+- type: x-website
+  url: https://victorops.com
 include: []
 maintainers:
 - FN: Kin Lane
