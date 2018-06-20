@@ -5,14 +5,12 @@ description: This is a repository of orchestration APIs, self-contained as a Git
   operations.
 image: http://template.streamdata.gallery/assets/orchestration.png
 created: "2018-02-24"
-modified: "2018-05-20"
+modified: "2018-06-20"
 url: http://orchestration.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
 tags: Orchestration
-include:
-- name: VictorOps
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/victorops/apis.yaml
+include: []
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
