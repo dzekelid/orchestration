@@ -1,38 +1,29 @@
 ---
 name: AWS Simple Queue Service
+x-slug: aws-simple-queue-service
 description: Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, fully
   managed message queuing service. Amazon SQS makes it simple and cost-effective to
   decouple the components of a cloud application. You can use Amazon SQS to transmit
   any volume of data, without losing messages or requiring other services to be always
-  available. Amazon SQS includesnbsp;standard queuesnbsp;with high throughput and
-  at-least-once processing, andnbsp;FIFO queuesnbsp;that provide FIFO (first-in, first-out)
-  delivery and exactly-once processing. nbsp;nWith Amazon SQS, you can offload the
-  administrative burden of operating and scaling a highly available messaging cluster,
-  while paying a low price for only what you use.
+  available. Amazon SQS includesstandard queueswith high throughput and at-least-once
+  processing, andFIFO queuesthat provide FIFO (first-in, first-out) delivery and exactly-once
+  processing. With Amazon SQS, you can offload the administrative burden of operating
+  and scaling a highly available messaging cluster, while paying a low price for only
+  what you use.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSQS.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Orchestration
-- Jobs
-- Amazon Web Services
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/aws-simple-queue-service/apis.yaml
+x-alexaRank: "0"
+tags: Orchestration
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-simple-queue-service/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS Simple Queue Service API
-  description: Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, fully
-    managed message queuing service
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSQS.png
-  humanURL: ""
-  baseURL: :///
-  tags: Orchestration
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/aws-simple-queue-service/action-setqueueattributes-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.simple.notification.service.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.simple.queue.service.stack.network
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SQ
 - type: x-command-line-interface

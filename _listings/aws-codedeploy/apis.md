@@ -1,5 +1,6 @@
 ---
 name: AWS CodeDeploy
+x-slug: aws-codedeploy
 description: AWS CodeDeploy is a service that automates code deployments to any instance,
   including Amazon EC2 instances and instances running on-premises. AWS CodeDeploy
   makes it easier for you to rapidly release new features, helps you avoid downtime
@@ -9,28 +10,18 @@ description: AWS CodeDeploy is a service that automates code deployments to any 
   so you can easily deploy to one instance or thousands.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- SDK
-- Orchestration
-- Amazon Web Services
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/aws-codedeploy/apis.yaml
+x-alexaRank: "0"
+tags: Orchestration
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-codedeploy/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS CodeDeploy API
-  description: AWS CodeDeploy is a service that automates code deployments to any
-    instance, including Amazon EC2 instances and instances running on-premises
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png
-  humanURL: ""
-  baseURL: :///
-  tags: Orchestration
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/aws-codedeploy/action-updatedeploymentgroup-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.codecommit.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.codedeploy.stack.network
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/codedeploy
 - type: x-documentation

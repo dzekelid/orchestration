@@ -1,32 +1,23 @@
 ---
 name: Azure DevTest Labs
+x-slug: azure-devtest-labs
 description: Azure DevTest Labs makes it easy to quickly create environments to deploy
   and test applications. Use reusable templates and artifacts to build Windows and
   Linux environments while minimalizing waste and controlling costs.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Testing
-- Stack Network
-- Orchestration
-- Microsoft
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/azure-devtest-labs/apis.yaml
+x-alexaRank: "0"
+tags: Orchestration
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/azure-devtest-labs/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Azure DevTest Labs API
-  description: Azure DevTest Labs makes it easy to quickly create environments to
-    deploy and test applications
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png
-  humanURL: ""
-  baseURL: ://management.azure.com//
-  tags: Orchestration
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-schedules-name-retarget-post.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://azure.data.lake.store.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://azure.devtest.labs.stack.network
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/devtest-lab/
 - type: x-pricing

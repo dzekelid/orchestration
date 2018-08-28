@@ -1,5 +1,6 @@
 ---
 name: AWS CodeCommit
+x-slug: aws-codecommit
 description: AWS CodeCommit is a fully-managed source control service that makes it
   easy for companies to host secure and highly scalable private Git repositories.
   CodeCommit eliminates the need to operate your own source control system or worry
@@ -7,28 +8,18 @@ description: AWS CodeCommit is a fully-managed source control service that makes
   from source code to binaries, and it works seamlessly with your existing Git tools.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- SDK
-- Orchestration
-- Amazon Web Services
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/aws-codecommit/apis.yaml
+x-alexaRank: "0"
+tags: Orchestration
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-codecommit/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS CodeCommit API
-  description: AWS CodeCommit is a fully-managed source control service that makes
-    it easy for companies to host secure and highly scalable private Git repositories
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
-  humanURL: ""
-  baseURL: :///
-  tags: Orchestration
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/aws-codecommit/action-updaterepositoryname-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.codebuild.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.codecommit.stack.network
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/codecommit/index.html
 - type: x-documentation

@@ -1,5 +1,6 @@
 ---
 name: AWS X-Ray
+x-slug: aws-xray
 description: AWS X-Ray helps developers analyze and debug production, distributed
   applications, such as those built using a microservices architecture. With X-Ray,
   you can understand how your application and its underlying services are performing
@@ -10,29 +11,18 @@ description: AWS X-Ray helps developers analyze and debug production, distribute
   applications to complex microservices applications consisting of thousands of services.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-xray.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Testing
-- Stack Network
-- Orchestration
-- Monitoring
-- Amazon Web Services
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/aws-xray/apis.yaml
+x-alexaRank: "0"
+tags: Orchestration
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-xray/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS X-Ray API
-  description: AWS X-Ray helps developers analyze and debug production, distributed
-    applications, such as those built using a microservices architecture
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-xray.png
-  humanURL: ""
-  baseURL: :///
-  tags: Orchestration
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/aws-xray/action-puttracesegments-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.workspaces.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.xray.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/xray/latest/api/Welcome.html
 - type: x-faq

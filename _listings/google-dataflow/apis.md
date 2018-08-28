@@ -1,35 +1,26 @@
 ---
 name: Google Dataflow
+x-slug: google-dataflow
 description: Dataflow is a unified programming model and a managed service for developing
   and executing a wide range of data processing patterns including ETL, batch computation,
   and continuous computation. Cloud Dataflow frees you from operational tasks like
   resource management and performance optimization.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-dataflow.jpeg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Orchestration
-- iPaaS
-- Google APIs
-- Data
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/google-dataflow/apis.yaml
+x-alexaRank: "0"
+tags: Orchestration
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/google-dataflow/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Google Cloud Dataflow API
-  description: Dataflow is a unified programming model and a managed service for developing
-    and executing a wide range of data processing patterns including ETL, batch computation,
-    and continuous computation
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-dataflow.jpeg
-  humanURL: ""
-  baseURL: ://dataflow.googleapis.com//
-  tags: Orchestration
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/google-dataflow/v1b3-projects-projectid-templates-launch-post.md
+apis: []
 x-common:
+- type: x-hacker-news-search
+  url: Google DataFlow
+- type: x-api-gallery
+  url: http://google.content.api.for.shopping.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.dataflow.stack.network
 - type: x-code
   url: https://cloud.google.com/dataflow/docs/samples
 - type: x-concepts

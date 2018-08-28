@@ -1,5 +1,6 @@
 ---
 name: AWS EC2 Systems Manager
+x-slug: aws-ec2-systems-manager
 description: Amazon EC2 Systems Manager is a management service that helps you automatically
   collect software inventory, apply OS patches, create system images, and configure
   Windows and Linux operating systems. These capabilities help you define and track
@@ -7,37 +8,24 @@ description: Amazon EC2 Systems Manager is a management service that helps you a
   and on-premises configurations. By providing a management approach that is designed
   for the scale and agility of the cloud but extends into your on-premises data center,
   EC2 Systems Manager makes it easier for you to seamlessly bridge your existing infrastructure
-  with AWS.nEC2 Systems Manager is easy to use. Simply access EC2 Systems Manager
-  from the EC2 Management Console, select the instances you want to manage, and define
+  with AWS.EC2 Systems Manager is easy to use. Simply access EC2 Systems Manager from
+  the EC2 Management Console, select the instances you want to manage, and define
   the management tasks you want to perform. EC2 Systems Manager is available now at
   no cost to manage both your EC2 and on-premises resources.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Orchestration
-- Management
-- Deployment
-- Cloud
-- Amazon Web Services
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/aws-ec2-systems-manager/apis.yaml
+x-alexaRank: "0"
+tags: Orchestration
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-ec2-systems-manager/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Amazon EC2 Systems Manager API
-  description: Amazon EC2 Systems Manager is a management service that helps you automatically
-    collect software inventory, apply OS patches, create system images, and configure
-    Windows and Linux operating systems
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
-  humanURL: ""
-  baseURL: :///
-  tags: Orchestration
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/aws-ec2-systems-manager/action-updatepatchbaseline-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.ec2.container.service.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.ec2.systems.manager.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/ssm/latest/APIReference/Welcome.html
 - type: x-faq

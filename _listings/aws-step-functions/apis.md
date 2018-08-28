@@ -1,5 +1,6 @@
 ---
 name: AWS Step Functions
+x-slug: aws-step-functions
 description: AWS Step Functions makes it easy to coordinate the components of distributed
   applications and microservices using visual workflows. Building applications from
   individual components that each perform a discrete function lets you scale and change
@@ -11,35 +12,23 @@ description: AWS Step Functions makes it easy to coordinate the components of di
   so your application executes in order and as expected. Step Functions logs the state
   of each step, so when things do go wrong, you can diagnose and debug problems quickly.
   You can change and add steps without even writing code, so you can easily evolve
-  your application and innovate faster.nnAWS Step Functions manages the operations
-  and underlying infrastructure for you to help ensure your application is available
-  at any scale.
+  your application and innovate faster.AWS Step Functions manages the operations and
+  underlying infrastructure for you to help ensure your application is available at
+  any scale.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-step-functions.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Orchestration
-- iPaaS
-- Etl
-- Automation
-- Amazon Web Services
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/aws-step-functions/apis.yaml
+x-alexaRank: "0"
+tags: Orchestration
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-step-functions/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS Step Functions API
-  description: AWS Step Functions makes it easy to coordinate the components of distributed
-    applications and microservices using visual workflows
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-step-functions.png
-  humanURL: ""
-  baseURL: :///
-  tags: Orchestration
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/aws-step-functions/action-stopexecution-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.snowball.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.step.functions.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/step-functions/latest/apireference/Welcome.html
 - type: x-faq

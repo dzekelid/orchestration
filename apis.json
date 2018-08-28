@@ -1,0 +1,717 @@
+{
+	"name": "Streadata.io API Gallery - Orchestration",
+	"description": "This is a repository of orchestration APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/orchestration.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://orchestration.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Flowdock",
+			"x-api-slug": "flowdock",
+			"description": "Teams using Flowdock stay up-to-date, react in seconds and never forget anything.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/789-flowdock.jpg",
+			"humanURL": "https://www.flowdock.com",
+			"baseURL": "https:///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/flowdock/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Puppet Labs",
+			"x-api-slug": "puppet-labs",
+			"description": "Automatically deliver and operate all of your software across its entire lifecycle ??? simply, securely and at scale ??? with Puppets modern automation. With Puppet, the technology is finally here to enable you to automate across your entire enterprise. S...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1469-puppet-labs.jpg",
+			"humanURL": "http://puppetlabs.com/",
+			"baseURL": "https:///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/puppet-labs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Chef",
+			"x-api-slug": "chef",
+			"description": "Automation for all of your technology. Overcome the complexity and rapidly ship your infrastructure and apps anywhere with automation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1668-chef.jpg",
+			"humanURL": "https://www.chef.io/",
+			"baseURL": "https:///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/chef/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpsGenie",
+			"x-api-slug": "opsgenie",
+			"description": "OpsGenie is an incident response orchestration platform for DevOps & ITOps teams to streamline your alerts & incident resolution processes faster & efficiently.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1821-opsgenie.jpg",
+			"humanURL": "http://www.opsgenie.com/",
+			"baseURL": "https:///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/opsgenie/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apache Ant",
+			"x-api-slug": "apache-ant",
+			"description": "Apache Ant is a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apache-ant.png",
+			"humanURL": "http://ant.apache.org/",
+			"baseURL": "https:///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/apache-ant/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Wercker",
+			"x-api-slug": "wercker",
+			"description": "Oracles Wercker is a container-centric automation platform used to develop, build, test and deploy cloud-native applications. Wercker was founded in 2011 and has offices in San Francisco, London and Amsterdam. Wercker is used by organisations deployin...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19931-wercker.jpg",
+			"humanURL": "http://wercker.com/",
+			"baseURL": "https:///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/wercker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HashiCorp",
+			"x-api-slug": "hashicorp",
+			"description": "HashiCorp enables organizations to have consistent workflows to provision, secure, connect, and run any infrastructure for any application.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19981-hashicorp.jpg",
+			"humanURL": "https://www.hashicorp.com/",
+			"baseURL": "https:///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/hashicorp/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VictorOps",
+			"x-api-slug": "victorops",
+			"description": "VictorOps incident managament software gives DevOps observability, collaboration, & real-time alerting, to build, deploy, & operate software. Learn more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg",
+			"humanURL": "http://victorops.com",
+			"baseURL": "https://api.victorops.com//",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/victorops/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Codeship",
+			"x-api-slug": "codeship",
+			"description": "Codeship is a fast and secure hosted Continuous Integration service that scales with your needs. It supports GitHub, Bitbucket, and Gitlab projects.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20096-codeship.jpg",
+			"humanURL": "https://codeship.com/",
+			"baseURL": "https:///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/codeship/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LaunchDarkly",
+			"x-api-slug": "launchdarkly",
+			"description": "Our vision is to eliminate risk for developers and operations teams from the software development cycle. As companies transition to a world built on software, there is an increasing requirement to move quickly&mdash;but that often comes with the desire to maintain control. LaunchDarkly is the feature management platform that enables dev and ops teams to control the whole feature lifecycle, from concept to launch to value. Feature flagging is an industry best practice of wrapping a new or risky section of code or infrastructure change with a flag. Each flag can easily be turned on/off independent of code deployment (aka &rdquo;dark launching&rdquo;). Equipping businesses with the ability to move at the speed of every deploy allows an entire company to learn rapidly, deliver value to their customers faster, and produce more value. Developers can build, marketing can launch, product can iterate, and sales can sell.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21652-launchdarkly-com.jpg",
+			"humanURL": "http://www.launchdarkly.com",
+			"baseURL": "https://app.launchdarkly.com//api/v2",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/launchdarkly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Datadog",
+			"x-api-slug": "datadog",
+			"description": "See inside any stack, any app, at any scale, anywhere.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg",
+			"humanURL": "https://www.datadoghq.com/",
+			"baseURL": "https:///api/v1/",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/datadog/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CodeCommit",
+			"x-api-slug": "aws-codecommit",
+			"description": "AWS CodeCommit is a fully-managed source control service that makes it easy for companies to host secure and highly scalable private Git repositories. CodeCommit eliminates the need to operate your own source control system or worry about scaling its infrastructure. You can use CodeCommit to securely store anything from source code to binaries, and it works seamlessly with your existing Git tools.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png",
+			"humanURL": "https://aws.amazon.com/codecommit/",
+			"baseURL": ":///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-codecommit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CodeBuild",
+			"x-api-slug": "aws-codebuild",
+			"description": "AWS CodeBuild is a fully managed build service that compiles source code, runs tests, and produces software packages that are ready to deploy. With CodeBuild, you don&rsquo;t need to provision, manage, and scale your own build servers. CodeBuild scales continuously and processes multiple builds concurrently, so your builds are not left waiting in a queue. You can get started quickly by using prepackaged build environments, or you can create custom build environments that use your own build tools. With CodeBuild, you are charged by the minute for the compute resources you use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-build-console-icon.png",
+			"humanURL": "https://aws.amazon.com/codebuild/",
+			"baseURL": ":///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-codebuild/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CodeDeploy",
+			"x-api-slug": "aws-codedeploy",
+			"description": "AWS CodeDeploy is a service that automates code deployments to any instance, including Amazon EC2 instances and instances running on-premises. AWS CodeDeploy makes it easier for you to rapidly release new features, helps you avoid downtime during application deployment, and handles the complexity of updating your applications. You can use AWS CodeDeploy to automate software deployments, eliminating the need for error-prone manual operations, and the service scales with your infrastructure so you can easily deploy to one instance or thousands.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png",
+			"humanURL": "https://aws.amazon.com/codedeploy/",
+			"baseURL": ":///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-codedeploy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Code Pipeline",
+			"x-api-slug": "aws-code-pipeline",
+			"description": "AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premise data sources, at specified intervals. With AWS Data Pipeline, you can regularly access your data where it&rsquo;s stored, transform and process it at scale, and efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS, Amazon DynamoDB, and Amazon EMR.AWS Data Pipeline helps you easily create complex data processing workloads that are fault tolerant, repeatable, and highly available. You don&rsquo;t have to worry about ensuring resource availability, managing inter-task dependencies, retrying transient failures or timeouts in individual tasks, or creating a failure notification system. AWS Data Pipeline also allows you to move and process data that was previously locked up in on-premise data silos.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png",
+			"humanURL": "https://aws.amazon.com/datapipeline/",
+			"baseURL": ":///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-code-pipeline/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS X-Ray",
+			"x-api-slug": "aws-xray",
+			"description": "AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture. With X-Ray, you can understand how your application and its underlying services are performing to identify and troubleshoot the root cause of performance issues and errors. X-Ray provides an end-to-end view of requests as they travel through your application, and shows a map of your applications underlying components. You can use X-Ray to analyze both applications in development and in production, from simple three-tier applications to complex microservices applications consisting of thousands of services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-xray.png",
+			"humanURL": "https://aws.amazon.com/xray/",
+			"baseURL": ":///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-xray/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2 Systems Manager",
+			"x-api-slug": "aws-ec2-systems-manager",
+			"description": "Amazon EC2 Systems Manager is a management service that helps you automatically collect software inventory, apply OS patches, create system images, and configure Windows and Linux operating systems. These capabilities help you define and track system configurations, prevent drift, and maintain software compliance of your EC2 and on-premises configurations. By providing a management approach that is designed for the scale and agility of the cloud but extends into your on-premises data center, EC2 Systems Manager makes it easier for you to seamlessly bridge your existing infrastructure with AWS.EC2 Systems Manager is easy to use. Simply access EC2 Systems Manager from the EC2 Management Console, select the instances you want to manage, and define the management tasks you want to perform. EC2 Systems Manager is available now at no cost to manage both your EC2 and on-premises resources.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/systems-manager/",
+			"baseURL": ":///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-ec2-systems-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS OpsWorks",
+			"x-api-slug": "aws-opsworks",
+			"description": "AWS OpsWorks is a configuration management service that uses Chef, an automation platform that treats server configurations as code. OpsWorks uses Chef to automate how servers are configured, deployed, and managed across your Amazon Elastic Compute Cloud (Amazon EC2) instances or on-premises compute environments. OpsWorks has two offerings, AWS Opsworks for Chef Automate, and AWS OpsWorks Stacks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png",
+			"humanURL": "https://aws.amazon.com/opsworks/",
+			"baseURL": ":///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-opsworks/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Step Functions",
+			"x-api-slug": "aws-step-functions",
+			"description": "AWS Step Functions makes it easy to coordinate the components of distributed applications and microservices using visual workflows. Building applications from individual components that each perform a discrete function lets you scale and change applications quickly. Step Functions is a reliable way to coordinate components and step through the functions of your application. Step Functions provides a graphical console to arrange and visualize the components of your application as a series of steps. This makes it simple to build and run multi-step applications. Step Functions automatically triggers and tracks each step, and retries when there are errors, so your application executes in order and as expected. Step Functions logs the state of each step, so when things do go wrong, you can diagnose and debug problems quickly. You can change and add steps without even writing code, so you can easily evolve your application and innovate faster.AWS Step Functions manages the operations and underlying infrastructure for you to help ensure your application is available at any scale.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-step-functions.png",
+			"humanURL": "https://aws.amazon.com/step-functions/",
+			"baseURL": ":///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-step-functions/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Simple Queue Service",
+			"x-api-slug": "aws-simple-queue-service",
+			"description": "Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, fully managed message queuing service. Amazon SQS makes it simple and cost-effective to decouple the components of a cloud application. You can use Amazon SQS to transmit any volume of data, without losing messages or requiring other services to be always available. Amazon SQS includesstandard queueswith high throughput and at-least-once processing, andFIFO queuesthat provide FIFO (first-in, first-out) delivery and exactly-once processing. With Amazon SQS, you can offload the administrative burden of operating and scaling a highly available messaging cluster, while paying a low price for only what you use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSQS.png",
+			"humanURL": "https://aws.amazon.com/sqs/",
+			"baseURL": ":///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-simple-queue-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Resource Manager",
+			"x-api-slug": "google-cloud-resource-manager",
+			"description": "Google Cloud Platform provides resource containers such as Organizations and Projects, that allow you to group and hierarchically organize other Cloud Platform resources. This hierarchical organization lets you easily manage common aspects of your resources such as access control and configuration settings. The Google Cloud Resource Manager service enables you to programmatically manage these resource containers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Generic-GCP.png",
+			"humanURL": "https://cloud.google.com/resource-manager/",
+			"baseURL": "://cloudresourcemanager.googleapis.com//",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/google-cloud-resource-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Dataflow",
+			"x-api-slug": "google-dataflow",
+			"description": "Dataflow is a unified programming model and a managed service for developing and executing a wide range of data processing patterns including ETL, batch computation, and continuous computation. Cloud Dataflow frees you from operational tasks like resource management and performance optimization.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-dataflow.jpeg",
+			"humanURL": "https://cloud.google.com/dataflow/",
+			"baseURL": "://dataflow.googleapis.com//",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/google-dataflow/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Deployment Manager",
+			"x-api-slug": "google-cloud-deployment-manager",
+			"description": "Google Cloud Deployment Manager allows you to specify all the resources needed for your application in a declarative format using yaml. You can also use Python or Jinja2 templates to parameterize the configuration and allow reuse of common deployment paradigms such as a load balanced, auto-scaled instance group. Treat your configuration as code and perform repeatable deployments.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/repeatable-deployment-process.png",
+			"humanURL": "https://cloud.google.com/deployment-manager/",
+			"baseURL": "https:///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/google-cloud-deployment-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Source Repositories",
+			"x-api-slug": "google-cloud-source-repositories",
+			"description": "Google Cloud Source Repositories provides Git version control to support collaborative development of any application or service, including those that run on Google App Engine and Google Compute Engine. If you are using the Stackdriver Debugger, you can use Cloud Source Repositories and related tools to view debugging information alongside your code during application runtime. Cloud Source Repositories also provides a source browser that you can use to view your repository files from within the Cloud Console.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-repositories.png",
+			"humanURL": "https://cloud.google.com/source-repositories/",
+			"baseURL": "://sourcerepo.googleapis.com//",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/google-cloud-source-repositories/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Task Queue",
+			"x-api-slug": "google-task-queue",
+			"description": "The Task Queue API lets applications perform work, called tasks, asynchronously outside of a user request. If an app needs to execute work in the background, it adds tasks to task queues. The tasks are executed later, by scalable App Engine worker services in your application.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hands-on-app-engine-11-638.jpg",
+			"humanURL": "https://cloud.google.com/appengine/docs/standard/python/taskqueue/",
+			"baseURL": "://www.googleapis.com//taskqueue/v1beta2/projects",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/google-task-queue/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Automation",
+			"x-api-slug": "azure-automation",
+			"description": "Automate all of those frequent, time-consuming, and error-prone cloud management tasks. Azure Automation helps you focus on work that adds business value. By reducing errors and boosting efficiency, it also helps to lower your operational costs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/automation/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/azure-automation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure DevTest Labs",
+			"x-api-slug": "azure-devtest-labs",
+			"description": "Azure DevTest Labs makes it easy to quickly create environments to deploy and test applications. Use reusable templates and artifacts to build Windows and Linux environments while minimalizing waste and controlling costs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/devtest-lab/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/azure-devtest-labs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Event Hubs",
+			"x-api-slug": "azure-event-hubs",
+			"description": "Azure Event Hubs is a hyper-scale telemetry ingestion service that collects, transforms, and stores millions of events. As a distributed streaming platform, it gives you low latency and configurable time retention, which enables you to ingress massive amounts of telemetry into the cloud and read the data from multiple applications using publish-subscribe semantics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-event-hubs-stream.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/event-hubs/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/azure-event-hubs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Scheduler",
+			"x-api-slug": "azure-scheduler",
+			"description": "Azure Scheduler lets you create jobs in the cloud that invoke services inside and outside of Azure&mdash;such as calling HTTP/S endpoints or posting messages to Azure Storage queues, or Azure Service Bus queues or topics. Run jobs right away, on a recurring schedule, or at some point in the future.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-scheduler-create.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/scheduler/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/azure-scheduler/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CircleCI",
+			"x-api-slug": "circleci",
+			"description": "CircleCI???s continuous integration and delivery platform makes it easy for teams of all sizes to rapidly build and release quality software at scale.  Build for Linux, macOS, and Android, in the cloud or behind your firewall.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg",
+			"humanURL": "http://circleci.com",
+			"baseURL": "https://circleci.com//api/v1",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/circleci/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AppVeyor CI",
+			"x-api-slug": "appveyor-ci",
+			"description": "We provide continuous integration tools for Windows developers. The service is offered for free to open-source projects, we offer subscriptions for private projects and AppVeyor Enterprise installations on customer premises.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg",
+			"humanURL": "http://appveyor.com",
+			"baseURL": "https://ci.appveyor.com//api",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/appveyor-ci/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rancher Labs",
+			"x-api-slug": "rancher-labs",
+			"description": "Rancher Labs builds innovative, open source container management software for enterprises leveraging containers to accelerate software development and improve IT operations.     The flagship product, Rancher, is a complete container management platform...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28735-rancher-com.jpg",
+			"humanURL": "https://rancher.com",
+			"baseURL": "https:///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/rancher-labs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Codefresh",
+			"x-api-slug": "codefresh",
+			"description": "Docker Automation and Collaboration for Agile Teams. Codefresh lets dev, QA and product work together on Docker compositions, including CI/CD, manual testing and feature previews.Codefresh enables you to instantly leverage all the benefits of Docker, w...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg",
+			"humanURL": "https://codefresh.io",
+			"baseURL": "https://g.codefresh.io//api",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/codefresh/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stelligent",
+			"x-api-slug": "stelligent",
+			"description": "Stelligent is a technology services company that provides DevOps Automation on the Amazon Web Services (AWS) cloud. We embed with your teams to achieve these and more aims, and do so in a way that leaves all the intellectual property safe with you. How...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28746-stelligent-com.jpg",
+			"humanURL": "https://stelligent.com",
+			"baseURL": "https:///",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/stelligent/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CollabNet",
+			"x-api-slug": "collabnet",
+			"description": "CollabNet is a software development and delivery solutions provider headquartered in South San Francisco, California.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28840-community-versionone-com.jpg",
+			"humanURL": "https://www.collab.net/",
+			"baseURL": "https:////ctfrest/foundation/v1",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/collabnet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitLab",
+			"x-api-slug": "gitlab",
+			"description": "GitLab is a web-based Git-repository manager with wiki, issue-tracking and CI/CD pipelines features, using an open-source license, developed by GitLab Inc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png",
+			"humanURL": "http://gitlab.com",
+			"baseURL": "https://localhost:3000//api",
+			"tags": "Orchestration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/gitlab/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Orchestration",
+	"include": [
+		{
+			"name": "Flowdock",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/flowdock/apis.yaml"
+		},
+		{
+			"name": "Puppet Labs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/puppet-labs/apis.yaml"
+		},
+		{
+			"name": "Chef",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/chef/apis.yaml"
+		},
+		{
+			"name": "OpsGenie",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/opsgenie/apis.yaml"
+		},
+		{
+			"name": "Apache Ant",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/apache-ant/apis.yaml"
+		},
+		{
+			"name": "Wercker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/wercker/apis.yaml"
+		},
+		{
+			"name": "HashiCorp",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/hashicorp/apis.yaml"
+		},
+		{
+			"name": "VictorOps",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/victorops/apis.yaml"
+		},
+		{
+			"name": "Codeship",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/codeship/apis.yaml"
+		},
+		{
+			"name": "LaunchDarkly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/launchdarkly/apis.yaml"
+		},
+		{
+			"name": "Datadog",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/datadog/apis.yaml"
+		},
+		{
+			"name": "AWS CodeCommit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-codecommit/apis.yaml"
+		},
+		{
+			"name": "AWS CodeBuild",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-codebuild/apis.yaml"
+		},
+		{
+			"name": "AWS CodeDeploy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-codedeploy/apis.yaml"
+		},
+		{
+			"name": "AWS Code Pipeline",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-code-pipeline/apis.yaml"
+		},
+		{
+			"name": "AWS X-Ray",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-xray/apis.yaml"
+		},
+		{
+			"name": "AWS EC2 Systems Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-ec2-systems-manager/apis.yaml"
+		},
+		{
+			"name": "AWS OpsWorks",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-opsworks/apis.yaml"
+		},
+		{
+			"name": "AWS Step Functions",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-step-functions/apis.yaml"
+		},
+		{
+			"name": "AWS Simple Queue Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/aws-simple-queue-service/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Resource Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/google-cloud-resource-manager/apis.yaml"
+		},
+		{
+			"name": "Google Dataflow",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/google-dataflow/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Deployment Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/google-cloud-deployment-manager/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Source Repositories",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/google-cloud-source-repositories/apis.yaml"
+		},
+		{
+			"name": "Google Task Queue",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/google-task-queue/apis.yaml"
+		},
+		{
+			"name": "Azure Automation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/azure-automation/apis.yaml"
+		},
+		{
+			"name": "Azure DevTest Labs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/azure-devtest-labs/apis.yaml"
+		},
+		{
+			"name": "Azure Event Hubs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/azure-event-hubs/apis.yaml"
+		},
+		{
+			"name": "Azure Scheduler",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/azure-scheduler/apis.yaml"
+		},
+		{
+			"name": "CircleCI",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/circleci/apis.yaml"
+		},
+		{
+			"name": "AppVeyor CI",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/appveyor-ci/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "Rancher Labs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/rancher-labs/apis.yaml"
+		},
+		{
+			"name": "Codefresh",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/codefresh/apis.yaml"
+		},
+		{
+			"name": "Stelligent",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/stelligent/apis.yaml"
+		},
+		{
+			"name": "CollabNet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/collabnet/apis.yaml"
+		},
+		{
+			"name": "GitLab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/gitlab/apis.yaml"
+		}
+	]
+}

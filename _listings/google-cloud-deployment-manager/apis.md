@@ -1,5 +1,6 @@
 ---
 name: Google Cloud Deployment Manager
+x-slug: google-cloud-deployment-manager
 description: Google Cloud Deployment Manager allows you to specify all the resources
   needed for your application in a declarative format using yaml. You can also use
   Python or Jinja2 templates to parameterize the configuration and allow reuse of
@@ -7,19 +8,18 @@ description: Google Cloud Deployment Manager allows you to specify all the resou
   Treat your configuration as code and perform repeatable deployments.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/repeatable-deployment-process.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Orchestration
-- Google APIs
-- Deployment
-- Cloud
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/google-cloud-deployment-manager/apis.yaml
+x-alexaRank: "0"
+tags: Orchestration
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/google-cloud-deployment-manager/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://google.cloud.datastore.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.cloud.deployment.manager.stack.network
 - type: x-authentication
   url: https://cloud.google.com/deployment-manager/docs/reference/latest/authorization
 - type: x-change-log

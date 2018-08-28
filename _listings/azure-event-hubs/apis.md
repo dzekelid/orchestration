@@ -1,5 +1,6 @@
 ---
 name: Azure Event Hubs
+x-slug: azure-event-hubs
 description: Azure Event Hubs is a hyper-scale telemetry ingestion service that collects,
   transforms, and stores millions of events. As a distributed streaming platform,
   it gives you low latency and configurable time retention, which enables you to ingress
@@ -7,28 +8,20 @@ description: Azure Event Hubs is a hyper-scale telemetry ingestion service that 
   using publish-subscribe semantics.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-event-hubs-stream.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Orchestration
-- Microsoft
-- Jobs
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/azure-event-hubs/apis.yaml
+x-alexaRank: "0"
+tags: Orchestration
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/azure-event-hubs/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Azure Event Hubs API
-  description: Azure Event Hubs is a hyper-scale telemetry ingestion service that
-    collects, transforms, and stores millions of events
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-event-hubs-stream.png
-  humanURL: ""
-  baseURL: ://management.azure.com//
-  tags: Orchestration
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/azure-event-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-eventhub-namespaces-namespacename-eventhubs-eventhubname-consumergroups-get.md
+apis: []
 x-common:
+- type: x-hacker-news-search
+  url: Azure Event Hubs
+- type: x-api-gallery
+  url: http://azure.documentdb.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://azure.event.hubs.stack.network
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/event-hubs/
 - type: x-pricing

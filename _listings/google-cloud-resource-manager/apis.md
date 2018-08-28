@@ -1,5 +1,6 @@
 ---
 name: Google Cloud Resource Manager
+x-slug: google-cloud-resource-manager
 description: Google Cloud Platform provides resource containers such as Organizations
   and Projects, that allow you to group and hierarchically organize other Cloud Platform
   resources. This hierarchical organization lets you easily manage common aspects
@@ -8,29 +9,18 @@ description: Google Cloud Platform provides resource containers such as Organiza
   containers.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Generic-GCP.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Orchestration
-- Management
-- Google APIs
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/google-cloud-resource-manager/apis.yaml
+x-alexaRank: "0"
+tags: Orchestration
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/orchestration/master/_listings/google-cloud-resource-manager/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Google Cloud Resource Manager API
-  description: Google Cloud Platform provides resource containers such as Organizations
-    and Projects, that allow you to group and hierarchically organize other Cloud
-    Platform resources
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Generic-GCP.png
-  humanURL: ""
-  baseURL: ://cloudresourcemanager.googleapis.com//
-  tags: Orchestration
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/orchestration/master/_listings/google-cloud-resource-manager/v1-resource-testiampermissions-post.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://google.cloud.pub.sub.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.cloud.resource.manager.stack.network
 - type: x-authentication
   url: https://cloud.google.com/resource-manager/docs/authorizing
 - type: x-code
